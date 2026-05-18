@@ -13,7 +13,7 @@ Built on [ofxEnTTInspector](../ofxEnTTInspector)'s `PropertyValue` and `Reflecte
 - **TimelinePanel** places preset-events on a frame ruler; as the playhead passes an event the preset is snapped or morphed in.
 - **Serialize / deserialize** via ofJSON (no external library needed).
 
-This is a *preset* system, not a per-field curve editor. For per-field Bezier-curve animation use [ofxTanim](../ofxTanim). Both addons can be used together — Tanim handles smooth curves, StateCollector handles high-level scene-state switching.
+This is a *preset* system, not a per-field curve editor. For per-field Bezier-curve animation use [ofxTanim]([..](https://github.com/ofxyz/ofxTanim). Both addons can be used together — Tanim handles smooth curves, StateCollector handles high-level scene-state switching.
 
 ---
 

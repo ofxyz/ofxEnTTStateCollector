@@ -10,4 +10,3 @@ common:
 	# ofxTanim is an optional dependency — only needed if you use TimelinePanel.
 	ADDON_DEPENDENCIES = ofxEnTTKit ofxImGui ofxEnTTInspector
 
-	ADDON_INCLUDES += $(OF_ROOT)/addons

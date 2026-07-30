@@ -24,7 +24,7 @@ namespace state {
 // ─── FieldSnapshot ────────────────────────────────────────────────────────────
 
 struct FieldSnapshot {
-    std::string             entityUid;      ///< Stable UID string (e.g. from tag_component)
+    std::string             entityUid;      ///< Stable UID string (e.g. tag_component::primary())
     std::string             componentName;  ///< Matches the name used in registerProperties
     std::string             fieldName;      ///< Matches ReflectedProperty::name
     inspector::PropertyValue value;         ///< Owned deep-copy of the field value at snapshot time
